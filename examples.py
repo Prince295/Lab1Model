@@ -1,0 +1,16 @@
+# x1d=-g*np.sin(x2)+(p-(a*cx*(x1*x1)))/(m-u*t)
+#     array1.append(x1d)
+#     x2d=(-g+(p*np.sin(x5-x2)+a*cy*(x1*x1))/(m-u*t))/x1
+#     array2.append(x2d)
+#     x3d=(m1*a*(x2-x5)*x1*x1-m2*a*x1*x1*x3)/(m-u*t)
+#     array3.append(x3d)
+#     x4d=x1*np.sin(x2)
+#     array4.append(x4d)
+#     x5d=x3*x3/2
+#     array5.append(x5d)
+#     x1=x1d
+#     x2=x2d
+#     x3=x3d
+#     x4=x4d
+#     x5=x5d
+#     t=t+h
