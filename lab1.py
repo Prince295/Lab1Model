@@ -1,9 +1,6 @@
 import os
 import matplotlib.pyplot as plt
 import numpy as np
-import math
-import sys
-from PyQt5.QtWidgets import QApplication, QWidget
 from matplotlib import mlab
 
 
