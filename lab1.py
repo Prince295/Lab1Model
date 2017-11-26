@@ -4,15 +4,6 @@ import numpy as np
 from matplotlib import mlab
 
 
-def save(name='', fmt='png'):
-    pwd = os.getcwd()
-    iPath = './pictures/{}'.format(fmt)
-    if not os.path.exists(iPath):
-        os.mkdir(iPath)
-    os.chdir(iPath)
-    plt.savefig('{}.{}'.format(name, fmt), fmt='png')
-    os.chdir(pwd)
-    #plt.close()
 
 
 h=float(input("Введите шаг интегрирования "))
@@ -130,9 +121,5 @@ plt.ylabel("значения X")
 plt.xlabel("период T")
 plt.legend()
 plt.grid(True)
-
-
-save(name='pic_1_4_2', fmt='pdf')
-save(name='pic_1_4_2', fmt='png')
 
 plt.show()
